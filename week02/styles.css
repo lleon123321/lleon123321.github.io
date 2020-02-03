@@ -3,8 +3,18 @@
 
 body {
   font-family: "Georgia", serif;
- color: black;
+   border: 1px solid #4CAF50;
 line-height: 140%;
   margin:30px;
-background-color: #F7F3DE;
+  background-color: #F7F3DE;
+   background-image: url("page-bg.gif");
+}
+
+header{
+  font-size: 350%;
+  color: #7C1A00;
+  padding: 40px;
+  padding-left: 120px;
+  background-image: url("header-image-1.gif")
+  background-position: left
 }
