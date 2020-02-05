@@ -15,7 +15,7 @@ header{
   color: #7C1A00;
   padding: 40px;
   padding-left: 120px;
-  background-image: url("header-image-1.gif")
+  background-image: url("header-image-1.gif");
     background-position: left
 }
 
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 article{
-  background-image: trans-bg.gif;
+  background-image: ("trans-bg.gif");
   border: 1px solid #CCCCCC;
    left-margin: 180px;
  padding: 10px;
