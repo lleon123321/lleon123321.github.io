@@ -8,6 +8,8 @@ line-height: 140%;
   margin:30px;
   background-color: #F7F3DE;
    background-image: url("page-bg.gif");
+    background-repeat:no-repeat;
+
 }
 
 header{
@@ -16,7 +18,9 @@ header{
   padding: 40px;
   padding-left: 120px;
   background-image: url("header-image-1.gif");
+   background-repeat:no-repeat;
     background-position: left
+    
 }
 
 nav {
@@ -34,7 +38,8 @@ nav ul {
 
 nav li {
  margin: 10px;
- border: 1px solid;
+ border: 1px ;
+  li {border-style: solid;}
   border-color: #7C1A00;
    background-color: #FFE597;
  
