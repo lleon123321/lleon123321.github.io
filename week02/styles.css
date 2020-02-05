@@ -6,10 +6,9 @@ body {
    border: 1px solid #4CAF50;
 line-height: 140%;
   margin:30px;
-  background-color: #F7F3DE;
-   background-image: url("page-bg.gif");
-    background-repeat:no-repeat;
-
+   background-image: url("page-bg.gif"), 
+   background-repeat:no-repeat; 
+   background-color: #F7F3DE;
 }
 
 header{
@@ -18,10 +17,8 @@ header{
   padding: 40px;
   padding-left: 120px;
   background-image: url("header-image-1.gif");
-  background-position: left
-   background-repeat:no-repeat;
-    
-    
+   background-repeat: no-repeat;
+  background-position: left  
 }
 
 nav {
