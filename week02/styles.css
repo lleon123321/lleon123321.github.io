@@ -3,118 +3,69 @@
 
 body {
   font-family: "Georgia", serif;
-  color: black;
-   background-color: #F7F3DE;
-  background-repeat:no-repeat; 
-    background-attachment: fixed;
-line-height: 140%;
-   margin-top: 30px;
-  margin-bottom: 30px;
-  margin-right: 30px;
-  margin-left: 30px;
-   background-image: url("page-bg.gif"),
- 
+  color: #000000;
+  line-height: 140%;
+  margin: 30px;
+  background-color: #F7F3DE;
+  background-image: url("page-bg.gif");
+  background-repeat: no-repeat;
 }
 
-header{
+header h1 {
   font-size: 350%;
-  color: #7C1A00;
-  padding: 40px;
-   background-image: url("header-image-1.gif");
-   background-repeat: no-repeat;
-  background-position: left  
-  p.ex1 {
-  padding-left: 120px;
-}
- 
+  color:#7C1A00;
+  paddding: 40px;
+  left-padding: 120px;
 }
 
-nav id{
-  section {
-  margin-bottom: 30px;
-  }
+#container {
+ margin-bottom: 30px; 
 }
 
 nav {
-  floa: left;
+  float:left;
   width: 150px;
 }
 
 nav ul {
   padding: 0px;
-   margin: 0px;
-  color: #7C1A00;
-ul.b {list-style-type: square;}
+  margin: 0px;
+  list-style-type: none;
+  color: #7C1A00
 }
 
 nav li {
- margin: 10px;
- border: 1px ;
+  margin: 10px;
+  border-width: 1px;
   border-style: solid;
   border-color: #7C1A00;
-   background-color: #FFE597;
- 
+  background-color: #FFE597;
 }
 
 nav a {
   color: white;
-  background-color: #8C9273;
+  background-color:#8C9273;
   padding: 3px;
   right-padding: 60px;
-   text-decoration: none;
-  
+  text-decoration:none;
 }
 
-nav a:hover {
+nav hover{
   background-color:#7C1A00;
-   
 }
 
 article{
-  background-image: ("trans-bg.gif");
-  border: 1px solid #CCCCCC;
+  background-image:trans-bg.gif;
+  border:1px solid #CCCCCC;
    left-margin: 180px;
- padding: 10px;
+  padding: 10px;
 }
 
-footer {
-   clear: both;
-    text-align: center;
+footer{
+  clear:both;
+  text-align:center;
 }
 
-h1 {
-  color:#8C9273;
-}
-
-h2 {
-   border-left:20px solid #8C9273;
- border-bottom:5px solid #8C9273;
-padding-left:5px;
-}
-
-h3 {
- background-image:("header-star-1.gif");
-  background-repeat: no-repeat;
-padding-left:20px;
-}
-
-ul{
-  ul {list-style-type: square;}  
-}
-
-footer li {
-  footer li {display: inline;}
+footer li{
+  display:inline;
   padding:10px;
-  
-}
-
-a {
-  font-weight: bold;
-  color: #7C1A00;
- 
-}
-
-a:hoover {
-   background-color:#FFE597;
-}
-
