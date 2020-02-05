@@ -20,10 +20,13 @@ header{
   font-size: 350%;
   color: #7C1A00;
   padding: 40px;
-  padding-left: 120px;
-  background-image: url("header-image-1.gif");
+   background-image: url("header-image-1.gif");
    background-repeat: no-repeat;
   background-position: left  
+  p.ex1 {
+  padding-left: 120px;
+}
+ 
 }
 
 nav id{
@@ -41,8 +44,7 @@ nav ul {
   padding: 0px;
    margin: 0px;
   color: #7C1A00;
-  list-style-type: none;
-  
+ul.b {list-style-type: square;}
 }
 
 nav li {
@@ -115,3 +117,4 @@ a {
 a:hoover {
    background-color:#FFE597;
 }
+
