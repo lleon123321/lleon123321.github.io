@@ -94,4 +94,13 @@ footer li {
   footer li {display: inline;}
 }
 
+a {
+  font-weight: bold;
+  color: #7C1A00;
+ 
+}
+
+a:hoover {
+   background-color:#FFE597;
+}
 
