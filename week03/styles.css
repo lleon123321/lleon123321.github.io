@@ -1,0 +1,36 @@
+h1 {
+  padding: 20px;
+  text-align: center;
+  background: orange;
+  font-family:Georgia;
+}
+
+
+footer {
+  text-align: center;
+  background: orange;
+  font-family:Georgia; 
+}
+
+nav {
+   left-margin: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin: 10px
+  list-style-positon: outside;
+}
+
+li {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  width: 100px;
+  background-color: #f1f1f1;
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
