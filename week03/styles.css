@@ -19,7 +19,7 @@ html {
 }
 
 .header {
-  background-color: #000000;
+  background-color: MediumSeaGreen;
   color: #ffffff;
   padding: 15px;
 }
@@ -43,7 +43,7 @@ html {
 }
 
 .aside {
-  background-color: #33b5e5;
+  background-color:Lightgrey;
   padding: 15px;
   color: #ffffff;
   text-align: center;
