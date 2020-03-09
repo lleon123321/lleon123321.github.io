@@ -19,7 +19,7 @@ html {
 }
 
 .header {
-  Background-color: red;
+  Background-color:#ff6347;
   color: #ffffff;
   padding: 15px;
 }
@@ -52,7 +52,7 @@ html {
 }
 
 .footer {
-  background-color:MediumSeaGreen;
+  background-color:#ff6347;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
