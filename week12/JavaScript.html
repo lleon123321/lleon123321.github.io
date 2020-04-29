@@ -5,11 +5,30 @@
     <title>Web Design 2: Leo Leon's Javascript Page</title>
     <script>
   function showAlert() {
-    alert ("Hello world!");
+    var myText = "Welcome to my awesome web page !";
+    alert (myText);
   }
   </script>
   </head>
-<body onload="showAlert()">
-    <!-- The content of your web page will go here -->
+  <style>
+    
+      button {
+    font-size: 1.1em;
+    background-color: #EBF5FF;
+    color: #4312AE;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999999;
+  }
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #EBF5FF;
+    background-color: #4312AE;
+    cursor: pointer; /* displays a hand */
+  }
+</style 
+    
+<body>
+  <button onclick="showAlert()">Click to show alert</button>
+   
   </body>
 </html>
